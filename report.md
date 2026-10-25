@@ -1,32 +1,68 @@
 # Final Project Report: Personal Portfolio Website
 
-## Project Objective
-The objective of this project is to develop a responsive and interactive personal portfolio website using HTML, CSS, and JavaScript, while applying Git and GitHub for version control and deploying the website through GitHub Pages.
+## 1. Project Objective
 
-## Project Overview
-The Personal Portfolio Website introduces the developer, presents technical skills, and displays sample project cards in a clean layout. The website is organized into Home, About, Skills, Projects, and Contact sections. It is designed to work on desktop, tablet, and mobile screens. Before final submission, the sample project descriptions and contact placeholders must be replaced with accurate personal details and completed work.
+The objective of this project is to develop a responsive and interactive Personal Portfolio Website using HTML5, CSS3, and JavaScript. The project also demonstrates the use of Git and GitHub for version control and GitHub Pages for deploying a website online.
 
-## Technologies Used
-HTML5 is used to create semantic page structure and accessible form labels. CSS3 provides styling, the box model, Flexbox, Grid, transitions, and media queries. JavaScript handles event listeners, DOM manipulation, search and category filtering, theme switching, mobile navigation, and form validation. Git is used to track changes, while GitHub stores the repository and GitHub Pages hosts the website.
+## 2. Project Overview
 
-## Main Features
-The website includes responsive navigation, a light/dark theme toggle, a dynamic copyright year, searchable project cards, category filters, and a contact form that checks the name, email format, and message length. The form is a front-end demonstration only; it does not send messages to a server. Semantic HTML and accessible labels improve usability.
+The Personal Portfolio Website provides a platform to introduce the developer, showcase technical skills, display projects, and provide contact information. The website contains Home, About, Skills, Projects, and Contact sections.
 
-## Website Screenshots
-Insert screenshots of the desktop home section, project search/filter, contact form validation, and mobile layout in this section before submission.
+The layout is designed to provide a user-friendly experience across desktop, tablet, and mobile screen sizes. The project is organized into separate HTML, CSS, and JavaScript files to improve readability and maintainability.
 
-## GitHub and Live Website
-GitHub Repository: [Paste your public repository URL here]  
-Live Website: [Paste your GitHub Pages URL here]
+## 3. Technologies Used
 
-## Challenges Faced
-A likely challenge was making the same layout work across different screen sizes. CSS Grid, Flexbox, and media queries were used to adjust the layout for smaller devices. Another challenge was keeping the project cards responsive to search and filter controls. JavaScript event listeners and a filtering function were used to update the DOM. Form validation was handled with basic checks and an email pattern.
+- **HTML5:** Used to create the structure and content of the website.
+- **CSS3:** Used for styling, responsive layouts, transitions, and visual design.
+- **JavaScript:** Used to implement interactive features, project filtering, theme switching, navigation behavior, and form validation.
+- **Git:** Used to track project changes and maintain commit history.
+- **GitHub:** Used to store and manage the source code repository.
+- **GitHub Pages:** Used to publish the website online.
 
-## Solutions Implemented
-The project is separated into HTML, CSS, and JavaScript files to keep the code organized. Reusable CSS classes maintain consistent styling, and JavaScript functions handle interactive behavior. The project should be tested in multiple screen sizes and browsers before publishing.
+## 4. Main Features
 
-## Key Learnings
-This project provides practice in semantic HTML, CSS layout techniques, responsive design, JavaScript functions, arrays, objects, events, DOM manipulation, and form validation. It also demonstrates the Git workflow of initializing a repository, checking status, staging files, committing changes, reviewing history, and pushing to GitHub.
+The website includes responsive navigation, Home, About, Skills, Projects, and Contact sections. It also includes a light/dark theme toggle, searchable project cards, category-based project filtering, a dynamic copyright year, and client-side contact form validation.
 
-## Future Improvements
-Future versions could connect the contact form to a backend service, add more verified projects, include a downloadable resume, improve accessibility testing, and add automated tests.
+The website uses a responsive layout to improve usability on different screen sizes. The contact form demonstrates front-end validation; it does not send messages to a server.
+
+## 5. Website Screenshots
+
+## 5. Website Screenshots
+
+### 5.1 Home Page
+The home page introduces the portfolio and provides navigation to the main sections of the website.
+
+![Home Page](screenshots/Homepage.png)
+
+### 5.2 Featured Projects
+The Featured Projects section displays project cards to showcase development work.
+
+![Featured Projects](screenshots/Featured projects.png)
+
+### 5.3 My Skills
+The My Skills section presents the technical skills displayed on the portfolio website.
+
+![My Skills](screenshots/My skills.png)
+## 6. GitHub Repository and Live Website
+
+**GitHub Repository:**  
+https://github.com/SanjanaMaddala11/personal-portfolio
+
+**Live Website:**  
+https://sanjanamaddala11.github.io/personal-portfolio/
+
+## 7. Challenges Faced
+
+One of the main challenges in developing a portfolio website is making the layout suitable for different screen sizes. Another challenge is coordinating interactive features such as project searching, category filtering, theme switching, and form validation.
+
+Using responsive CSS techniques and JavaScript event handling helps address these requirements. Organizing the code into separate files also makes the project easier to understand and maintain.
+
+## 8. Solutions Implemented
+
+The website separates its structure, styling, and interactive behavior into HTML, CSS, and JavaScript files. CSS classes and responsive layout techniques help maintain a consistent design. JavaScript handles user interactions and updates website elements when users interact with the available controls.
+
+Git and GitHub were used to track and publish the project, and GitHub Pages was used to make the website accessible online.
+
+## 9. Key Learnings
+
+Through this project, I gained practical experience in creating a website with HTML, CSS, and JavaScript. I learned about responsive web design, page
