@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A personal portfolio website showcasing skills, projects, and contact information.">
+  <title>Sanjana Maddala | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">Sanjana<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light and dark theme">☼ Theme</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+        <h1>Sanjana <span>Maddala</span></h1>
+        <h2>Aspiring Web Developer</h2>
+        <p class="intro">I enjoy learning how websites work and creating clean, useful, and responsive digital experiences. I'm currently building my skills in HTML, CSS, JavaScript, and Git.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work</a>
+          <a class="button secondary" href="#contact">Contact me</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Portfolio summary">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <p class="code-muted">developer.js</p>
+          <p><span class="code-purple">const</span> developer = {</p>
+          <p class="code-indent">name: <span class="code-green">'Sanjana'</span>,</p>
+          <p class="code-indent">learning: [</p>
+          <p class="code-indent code-indent-two"><span class="code-green">'HTML'</span>, <span class="code-green">'CSS'</span>,</p>
+          <p class="code-indent code-indent-two"><span class="code-green">'JavaScript'</span></p>
+          <p class="code-indent">],</p>
+          <p class="code-indent">goal: <span class="code-green">'Build & grow'</span></p>
+          <p>};</p>
+          <div class="code-status"><span></span> Open to learning opportunities</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2 class="section-title">About <span>Me</span></h2>
+        <p class="section-text">I'm a Computer Science and Engineering student who is developing practical skills through projects and continuous learning. I like turning ideas into simple web experiences and improving them through testing and feedback.</p>
+        <div class="about-stats">
+          <div class="stat"><strong>01</strong><span>Curiosity first</span></div>
+          <div class="stat"><strong>02</strong><span>Learn by building</span></div>
+          <div class="stat"><strong>03</strong><span>Improve every day</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow">WHAT I'M LEARNING</p>
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon html-icon">5</div><h3>HTML5</h3><p>Semantic page structure and accessible content.</p></article>
+        <article class="skill-card"><div class="skill-icon css-icon">3</div><h3>CSS3</h3><p>Layouts, Flexbox, Grid, and responsive styling.</p></article>
+        <article class="skill-card"><div class="skill-icon js-icon">JS</div><h3>JavaScript</h3><p>Events, functions, arrays, objects, and DOM updates.</p></article>
+        <article class="skill-card"><div class="skill-icon git-icon">⌘</div><h3>Git & GitHub</h3><p>Version control, repositories, and deployment.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <p class="eyebrow">A FEW THINGS I'VE BUILT</p>
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <div class="project-tools">
+          <label class="search-label" for="project-search">Search projects</label>
+          <input id="project-search" type="search" placeholder="Try “portfolio” or “JavaScript”…">
+          <div class="filter-buttons" role="group" aria-label="Filter projects">
+            <button class="filter-button active" data-filter="all" type="button">All</button>
+            <button class="filter-button" data-filter="web" type="button">Web</button>
+            <button class="filter-button" data-filter="javascript" type="button">JavaScript</button>
+          </div>
+        </div>
+        <div class="projects-grid" id="projects-grid">
+          <article class="project-card" data-category="web" data-search="personal portfolio website html css responsive">
+            <div class="project-art art-purple"><span>&lt;/&gt;</span></div>
+            <div class="project-body"><p class="project-type">WEB DEVELOPMENT</p><h3>Personal Portfolio</h3><p>A responsive website to introduce myself, display skills, and share projects.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div></div>
+          </article>
+          <article class="project-card" data-category="javascript" data-search="task tracker javascript dom events">
+            <div class="project-art art-blue"><span>✓</span></div>
+            <div class="project-body"><p class="project-type">JAVASCRIPT</p><h3>Task Tracker</h3><p>A concept for managing tasks using event handling and DOM manipulation.</p><div class="tags"><span>JavaScript</span><span>DOM</span></div></div>
+          </article>
+          <article class="project-card" data-category="web" data-search="ecommerce product cards layout web design">
+            <div class="project-art art-orange"><span>◇</span></div>
+            <div class="project-body"><p class="project-type">WEB DESIGN</p><h3>Shop Landing Page</h3><p>A sample product layout exploring card design, spacing, and responsive grids.</p><div class="tags"><span>HTML</span><span>CSS Grid</span></div></div>
+          </article>
+        </div>
+        <p class="empty-state" id="empty-state" hidden>No matching projects found. Try another search.</p>
+        <p class="small-note">Note: The project cards above are sample portfolio entries. Replace them with your own completed projects before submission.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-layout">
+        <div>
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2 class="section-title">Contact <span>Me</span></h2>
+          <p class="section-text">Have a suggestion, project idea, or learning opportunity? Use the form to test the built-in validation.</p>
+          <p class="contact-detail"><strong>Email:</strong> <span>Replace with your email address</span></p>
+          <p class="contact-detail"><strong>GitHub:</strong> <span>Add your GitHub profile link</span></p>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" required minlength="2">
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Write a short message..." required minlength="10"></textarea>
+          <button class="button primary" type="submit">Validate message</button>
+          <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+          <p class="form-note">This demo validates your entries in the browser. It does not send or store messages.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><p>© <span id="year"></span> Sanjana Maddala. Built with HTML, CSS & JavaScript.</p><a href="#home">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
