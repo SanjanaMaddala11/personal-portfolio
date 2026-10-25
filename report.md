@@ -37,12 +37,12 @@ The home page introduces the portfolio and provides navigation to the main secti
 ### 5.2 Featured Projects
 The Featured Projects section displays project cards to showcase development work.
 
-![Featured Projects](screenshots/Featured projects.png)
+![Featured Projects](screenshots/Featuredprojects.png)
 
 ### 5.3 My Skills
 The My Skills section presents the technical skills displayed on the portfolio website.
 
-![My Skills](screenshots/My skills.png)
+![My Skills](screenshots/Myskills.png)
 ## 6. GitHub Repository and Live Website
 
 **GitHub Repository:**  
